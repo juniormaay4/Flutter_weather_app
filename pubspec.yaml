@@ -1,0 +1,36 @@
+name: weather_explorer
+description: Une application météo interactive avec Flutter
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Gestion d'état
+  provider: ^6.1.1
+  
+  # Requêtes HTTP
+  http: ^1.1.0
+  
+  # Carte interactive avec OpenStreetMap
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  
+  # Stockage local
+  shared_preferences: ^2.2.2
+  
+  # Icônes
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
